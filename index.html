@@ -695,7 +695,7 @@ body {
 <div class="app-tabs">
   <button class="active" data-app-tab="maintenance">Maintenance Log</button>
   <button data-app-tab="modlist">Mod List + Totals</button>
-  <button data-app-tab="build">Build File</button>
+  
   <button data-app-tab="backup">Backup / Import</button>
 </div>
 
@@ -809,8 +809,7 @@ const FACTORY = [
       "Inspect Intercooler, In/Out Hose, Air Intake Hose",
       "Inspect Steering Gear Box, Linkage & Boots/Lower Arm Ball Joint",
       "Inspect Suspension Mounting Bolts",
-      "Inspect Vacuum Hose",
-    ]
+      "Inspect Vacuum Hose"]
   },
   {
     miles: 12000,
@@ -833,8 +832,7 @@ const FACTORY = [
       "Inspect Steering Gear Box, Linkage & Boots",
       "Inspect Suspension Mounting Bolts",
       "Inspect Vacuum Hose",
-      "Inspect Vapor Hose, Fuel Filler Cap and Fuel Tank",
-    ]
+      "Inspect Vapor Hose, Fuel Filler Cap and Fuel Tank"]
   },
   {
     miles: 18000,
@@ -855,8 +853,7 @@ const FACTORY = [
       "Inspect Intercooler, In/Out Hose, Air Intake Hose",
       "Inspect Steering Gear Box, Linkage & Boots",
       "Inspect Suspension Mounting Bolts",
-      "Inspect Vacuum Hose",
-    ]
+      "Inspect Vacuum Hose"]
   },
   {
     miles: 24000,
@@ -879,8 +876,7 @@ const FACTORY = [
       "Inspect Steering Gear Box, Linkage & Boots",
       "Inspect Suspension Mounting Bolts",
       "Inspect Vacuum Hose",
-      "Inspect Vapor Hose, Fuel Filler Cap and Fuel Tank",
-    ]
+      "Inspect Vapor Hose, Fuel Filler Cap and Fuel Tank"]
   },
   {
     miles: 30000,
@@ -901,8 +897,7 @@ const FACTORY = [
       "Inspect Exhaust Pipe and Muffler",
       "Inspect Steering Gear Box, Linkage & Boots",
       "Inspect Suspension Mounting Bolts",
-      "Inspect Vacuum Hose",
-    ]
+      "Inspect Vacuum Hose"]
   },
   {
     miles: 36000,
@@ -926,8 +921,7 @@ const FACTORY = [
       "Inspect Steering Gear Box, Linkage & Boots",
       "Inspect Suspension Mounting Bolts",
       "Inspect Vacuum Hose",
-      "Inspect Vapor Hose, Fuel Filler Cap and Fuel Tank",
-    ]
+      "Inspect Vapor Hose, Fuel Filler Cap and Fuel Tank"]
   },
   {
     miles: 42000,
@@ -947,8 +941,7 @@ const FACTORY = [
       "Inspect Exhaust Pipe and Muffler",
       "Inspect Steering Gear Box, Linkage & Boots",
       "Inspect Suspension Mounting Bolts",
-      "Inspect Vacuum Hose",
-    ]
+      "Inspect Vacuum Hose"]
   },
   {
     miles: 48000,
@@ -972,8 +965,7 @@ const FACTORY = [
       "Inspect Steering Gear Box, Linkage & Boots",
       "Inspect Suspension Mounting Bolts",
       "Inspect Vacuum Hose",
-      "Inspect Vapor Hose, Fuel Filler Cap and Fuel Tank",
-    ]
+      "Inspect Vapor Hose, Fuel Filler Cap and Fuel Tank"]
   },
   {
     miles: 54000,
@@ -995,8 +987,7 @@ const FACTORY = [
       "Inspect Intercooler, In/Out Hose, Air Intake Hose",
       "Inspect Steering Gear Box, Linkage & Boots",
       "Inspect Suspension Mounting Bolts",
-      "Inspect Vacuum Hose",
-    ]
+      "Inspect Vacuum Hose"]
   },
   {
     miles: 60000,
@@ -1023,8 +1014,7 @@ const FACTORY = [
       "Inspect Suspension Mounting Bolts",
       "Inspect Vacuum Hose",
       "Inspect Valve Clearance",
-      "Inspect Vapor Hose, Fuel Filler Cap and Fuel Tank",
-    ]
+      "Inspect Vapor Hose, Fuel Filler Cap and Fuel Tank"]
   },
   {
     miles: 66000,
@@ -1044,8 +1034,7 @@ const FACTORY = [
       "Inspect Exhaust Pipe and Muffler",
       "Inspect Steering Gear Box, Linkage & Boots",
       "Inspect Suspension Mounting Bolts",
-      "Inspect Vacuum Hose",
-    ]
+      "Inspect Vacuum Hose"]
   },
   {
     miles: 72000,
@@ -1070,8 +1059,7 @@ const FACTORY = [
       "Inspect Steering Gear Box, Linkage & Boots",
       "Inspect Suspension Mounting Bolts",
       "Inspect Vacuum Hose",
-      "Inspect Vapor Hose, Fuel Filler Cap and Fuel Tank",
-    ]
+      "Inspect Vapor Hose, Fuel Filler Cap and Fuel Tank"]
   },
   {
     miles: 84000,
@@ -1095,8 +1083,7 @@ const FACTORY = [
       "Inspect Steering Gear Box, Linkage & Boots",
       "Inspect Suspension Mounting Bolts",
       "Inspect Vacuum Hose",
-      "Inspect Vapor Hose, Fuel Filler Cap and Fuel Tank",
-    ]
+      "Inspect Vapor Hose, Fuel Filler Cap and Fuel Tank"]
   },
   {
     miles: 96000,
@@ -1121,8 +1108,7 @@ const FACTORY = [
       "Inspect Steering Gear Box, Linkage & Boots",
       "Inspect Suspension Mounting Bolts",
       "Inspect Vacuum Hose",
-      "Inspect Vapor Hose, Fuel Filler Cap and Fuel Tank",
-    ]
+      "Inspect Vapor Hose, Fuel Filler Cap and Fuel Tank"]
   },
   {
     miles: 120000,
@@ -1150,17 +1136,14 @@ const FACTORY = [
       "Inspect Suspension Mounting Bolts",
       "Inspect Vacuum Hose",
       "Inspect Valve Clearance",
-      "Inspect Vapor Hose, Fuel Filler Cap and Fuel Tank",
-    ]
-  },
-];
+      "Inspect Vapor Hose, Fuel Filler Cap and Fuel Tank"]
+  }];
 
 // Recommended items added to every interval
 const ALWAYS_REC = [
   { text: "Add GDI Fuel System Cleaner (Liqui-Moly or CRC GDI Intake Valve Cleaner)", tag: "rec", note: "Every 5,000–10,000 miles. Use products specifically for GDI engines." },
   { text: "Check Tire Pressure (See door jamb sticker for correct PSI)", tag: "rec" },
-  { text: "Use Top Tier Detergent Gasoline", tag: "rec" },
-];
+  { text: "Use Top Tier Detergent Gasoline", tag: "rec" }];
 
 const OIL_BRANDS = "Recommended oils: Castrol Edge, Mobil 1, Pennzoil Platinum";
 
@@ -1169,8 +1152,7 @@ const PERIODIC = {
   5000:  ["Replace Engine Oil and Filter — 5k interval (RECOMMENDED)"],
   30000: ["Replace Transmission Fluid (Drain & Fill — SP-IV or SP-IV-RR) — every 30k"],
   60000: ["Flush Coolant (every 5 years / 50k miles — use Green meeting MS 591-08)"],
-  80000: ["Replace Serpentine Belt (60–80k mile window)"],
-};
+  80000: ["Replace Serpentine Belt (60–80k mile window)"]};
 
 // ══════════════════════════════════════════════════════════
 // STATE
@@ -1450,8 +1432,7 @@ function saveReceipt() {
     shop: document.getElementById('receiptShop').value,
     date: document.getElementById('receiptDate').value,
     amount: document.getElementById('receiptAmount').value,
-    photo: receiptPhotoData,
-  });
+    photo: receiptPhotoData});
   setItem(secKey, s);
   closeModal('receiptModal');
   render();
